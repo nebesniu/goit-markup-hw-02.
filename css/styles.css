@@ -17,7 +17,18 @@
 .list {
     list-style: none;
 }
-
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
 body { 
     background-color: var(--bg-color);
@@ -149,6 +160,54 @@ a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+
 .adr-link:focus {
     color: var(--accent);
 }
+
+/* -------------------портфолио ----------------------------*/
+
+/* ---------------------projects */
+
+.buttons {
+    font-weight: 500;
+font-size: 16px;
+line-height:1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+    color: var(--first-text-color);
+    background-color: var(--accent);
+}
+    
+.projects-after-title {
+    font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--second-title-color);
+}
+
+.projects-text {
+    font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

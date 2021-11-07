@@ -100,17 +100,24 @@ letter-spacing: 0.03em;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: var(--second-title-color)
+color: var(--second-title-color);
+}
 
+/* ----------------------team---------- */
 
-
-
-/* ----------------------------team */
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
 
 .team-after-title {
     font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 
@@ -118,8 +125,10 @@ color: var(--second-title-color);
     font-weight: normal;
 font-size: 16px;
 line-height: 1.19;
+letter-spacing: 0.03em;
 }
-/* -----------------------------footer---------- */
+
+/* ------------------------------footer */
 .footer {
     background-color: #2F303A;
 }
@@ -130,20 +139,16 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-
 }
+
 a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26"] {
-    color: var(--first-title-color);
+    color: var(--first-text-color);
 }
 
-.adr-link:focus,
-.adr-link:hover {
+.adr-link:hover,
+.adr-link:focus {
     color: var(--accent);
 }
-
-
- 
- 
 
 
 

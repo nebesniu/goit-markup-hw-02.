@@ -99,21 +99,13 @@ letter-spacing: 0.03em;
     font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-title-color)
-}
+
+
+
 
 /* ----------------------------team */
-
-.team-title {
-    font-weight: bold;
-font-size: 36px;
-line-height: 1.17x;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-title-color);
-}
 
 .team-after-title {
     font-weight: 500;
@@ -150,12 +142,8 @@ a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+
 }
 
 
-
-
-
-
-
-
+ 
+ 
 
 
 
